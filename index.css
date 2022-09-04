@@ -1,0 +1,329 @@
+.container{
+  display: grid;
+  height: 100vh;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 40px 50px 40px 40px 40px 40px 40px
+    40px 40px   40px 40px  40px 40px  40px 40px  50px 50px  40px 4.5cm   ;
+    grid-template-areas:
+    "row row row row row row"
+    "raj1 raj2 raj2 raj2 raj2 raj2 "
+    "raj3 raj3 raj3 raj3 raj3 raj3"
+    "raj4 raj4 raj4 raj4 raj4 raj4"
+    "raj5 raj5 raj5 raj5 raj5 raj5"
+    "raj6 raj6 raj6 raj6 raj6 raj6"
+    "raj7 raj7 raj7 raj7 raj7 raj7"
+    "raj8 raj8 raj8 raj8 raj8 raj8"
+    "raj9 raj10 raj11 raj12 raj13 raj14"
+    "raj15 raj16 raj17 raj18 raj19 raj20"
+    "raj21 raj22 raj23 raj24 raj25 raj26"
+    "raj27 raj28 raj29 raj30 raj31 raj32"
+    "raj33 raj33 raj33 raj33 raj33 raj33"
+    "raj34 raj35 raj36 raj37 raj38 raj39"
+    "raj40 raj41 raj42 raj43 raj44 raj45"
+    "raj46 raj47 raj48 raj49 raj50 raj51"
+    "raj52 raj53 raj54 raj55 raj56 raj57"
+    "raj58 raj58 raj58  raj58 raj58 raj58 "
+    "raj59 raj59 raj59 raj59 raj59 raj59"
+    "raj60 raj60 raj60 raj60 raj60 raj60"
+    ;
+  
+}
+row{
+  background-color: white;
+  grid-area: row;
+}
+#raj1{
+  background-color: white;
+  grid-area: raj1;
+
+}
+#raj2{
+  background-color: white;
+  grid-area: raj2;
+  padding-left: 10px;
+}
+#raj3{
+  background-color: white;
+  grid-area: raj3;
+  padding-top: 10px;
+}
+#raj4{
+  background-color: white;
+  grid-area: raj4;
+  
+}
+#raj5{
+  background-color:white;
+  grid-area:raj5;
+}
+ #raj6{
+  background-color:white;
+  grid-area: raj6;
+  
+
+}
+#raj7{
+  background-color:white;
+  grid-area: raj7;
+}
+#raj8{
+  background-color:white;
+  grid-area: raj8;
+}
+#raj9{
+  background-color:white;
+  grid-area: raj9;
+}
+#raj10{
+  background-color:white;
+  grid-area: raj10;
+  text-align: center;
+} 
+#raj11{
+  background-color:white;
+  grid-area: raj11;
+  text-align: center;
+} 
+#raj12{
+  background-color:white;
+  grid-area: raj12;
+  text-align: center;
+} 
+#raj13{
+  background-color:white;
+  grid-area: raj13;
+  text-align: center;
+} 
+#raj14{
+  background-color:white;
+  grid-area: raj14;
+  text-align: center;
+} 
+#raj15{
+  background-color:white;
+  grid-area: raj15;
+} 
+#raj16{
+  background-color:white;
+  grid-area: raj16;
+  text-align: center;
+} 
+#raj17{
+  background-color:white;
+  grid-area: raj17;
+  text-align: center;
+} 
+#raj18{
+  background-color:white;
+  grid-area: raj18;
+  text-align: center;
+} 
+#raj19{
+  background-color:white;
+  grid-area: raj19;
+  text-align: center;
+} 
+#raj20{
+  background-color:white;
+  grid-area: raj20;
+  text-align: center;
+} 
+#raj21{
+  background-color:white;
+  grid-area: raj21;
+
+} 
+#raj22{
+  background-color:white;
+  grid-area: raj22;
+  text-align: center;
+} 
+#raj23{
+  background-color:white;
+  grid-area: raj23;
+  text-align: center;
+} 
+#raj24{
+  background-color:white;
+  grid-area: raj24;
+  text-align: center;
+} 
+#raj25{
+  background-color:white;
+  grid-area: raj25;
+  text-align: center;
+} 
+#raj26{
+  background-color:white;
+  grid-area: raj26;
+  text-align: center;
+} 
+#raj27{
+  background-color:white;
+  grid-area: raj27;
+ 
+} 
+#raj28{
+  background-color:white;
+  grid-area: raj28;
+  text-align: center;
+} 
+#raj29{
+  background-color:white;
+  grid-area: raj29;
+  text-align: center;
+} 
+#raj30{
+  background-color:white;
+  grid-area: raj30;
+  text-align: center;
+} 
+#raj31{
+  background-color:white;
+  grid-area: raj31;
+  text-align: center;
+} 
+#raj32{
+  background-color:white;
+  grid-area: raj32;
+  text-align: center;
+} 
+#raj33{
+  background-color:white;
+  grid-area: raj33;
+ 
+} 
+#raj35{
+  background-color:white;
+  grid-area: raj35;
+  text-align: center;
+} 
+#raj36{
+  background-color:white;
+  grid-area: raj36;
+  text-align: center;
+} 
+#raj37{
+  background-color:white;
+  grid-area: raj37;
+  text-align: center;
+} 
+#raj38{
+  background-color:white;
+  grid-area: raj38;
+  text-align: center;
+} 
+#raj39{
+  background-color:white;
+  grid-area: raj39;
+  text-align: center;
+} 
+#raj40{
+  background-color:white;
+  grid-area: raj40;
+ 
+} 
+#raj41{
+  background-color:white;
+  grid-area: raj41;
+  text-align: center;
+} 
+#raj42{
+  background-color:white;
+  grid-area: raj42;
+  text-align: center;
+} 
+#raj43{
+  background-color:white;
+  grid-area: raj43;
+  text-align: center;
+} 
+#raj44{
+  background-color:white;
+  grid-area: raj44;
+  text-align: center;
+} 
+#raj45{
+  background-color:white;
+  grid-area: raj45;
+  text-align: center;
+} 
+#raj46{
+  background-color:white;
+  grid-area: raj46;
+ 
+} 
+#raj47{
+  background-color:white;
+  grid-area: raj47;
+  text-align: center;
+} 
+#raj48{
+  background-color:white;
+  grid-area: raj48;
+  text-align: center;
+} 
+#raj49{
+  background-color:white;
+  grid-area: raj49;
+  text-align: center;
+} 
+#raj50{
+  background-color:white;
+  grid-area: raj50;
+  text-align: center;
+} 
+#raj51{
+  background-color:white;
+  grid-area: raj51;
+  text-align: center;
+} 
+#raj52{
+  background-color:white;
+  grid-area: raj52;
+ 
+} 
+#raj53{
+  background-color:white;
+  grid-area: raj53;
+  text-align: center;
+} 
+#raj54{
+  background-color:white;
+  grid-area: raj54;
+  text-align: center;
+} 
+#raj55{
+  background-color:white;
+  grid-area: raj55;
+  text-align: center;
+} 
+#raj56{
+  background-color:white;
+  grid-area: raj56;
+  text-align: center;
+} 
+#raj57{
+  background-color:white;
+  grid-area: raj57;
+  text-align: center;
+} 
+#raj58{
+  background-color:white;
+  grid-area: raj58;
+ 
+} #raj59{
+ background-color: white;
+ grid-area: raj59;
+ height: 4cm;
+ border: solid black;
+ 
+ 
+} 
+#raj60{
+  background-color:white;
+  grid-area: raj60;
+ 
+}
+
+
